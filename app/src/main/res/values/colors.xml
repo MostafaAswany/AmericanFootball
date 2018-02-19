@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <!--Buttons Color For Team A-->
+    <color name="teamA_Btn">#a018df8c</color>
+    <color name="teamB_Btn">#a0df1857</color>
+
+    <!--Team Name Background color-->
+    <color name="teamName">#8dafafaf</color>
+    <color name="vertical_line_View">#d1d1d1</color>
+</resources>

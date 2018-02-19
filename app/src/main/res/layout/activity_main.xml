@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/teamName"
+                android:layout_marginVertical="16dp"
+                android:text="@string/team_a" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/teamScore" />
+
+            <ImageButton
+                android:id="@+id/add3PointForA"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamA_Btn"
+                android:src="@drawable/ball3" />
+
+            <ImageButton
+                android:id="@+id/add2PointForA"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamA_Btn"
+                android:src="@drawable/ball2" />
+
+            <ImageButton
+                android:id="@+id/add1PointForA"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamA_Btn"
+                android:src="@drawable/ball1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/vertical_line_View" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/teamName"
+                android:layout_marginVertical="16dp"
+                android:text="@string/team_b" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                style="@style/teamScore" />
+
+            <ImageButton
+                android:id="@+id/add3PointForB"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamB_Btn"
+                android:src="@drawable/ball3" />
+
+            <ImageButton
+                android:id="@+id/add2PointForB"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamB_Btn"
+                android:src="@drawable/ball2" />
+
+            <ImageButton
+                android:id="@+id/add1PointForB"
+                style="@style/TeamA_Btn"
+                android:layout_marginHorizontal="24dp"
+                android:background="@color/teamB_Btn"
+                android:src="@drawable/ball1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        style="@style/reset_Btn"
+        android:text="@string/reset" />
+
+</RelativeLayout>

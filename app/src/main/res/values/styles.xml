@@ -1,0 +1,60 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
+        <!-- Primary dark theme color of the app (sets color of status bar) -->
+        <item name="colorPrimaryDark">#000000</item>
+    </style>
+
+    <!--Team Name-->
+    <style name="teamName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#8DAFAFAF</item>
+    </style>
+
+    <!--Team score Number-->
+    <style name="teamScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:text">"0"</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/soccer</item>
+    </style>
+
+    <!--Team A Buttons -->
+    <style name="TeamA_Btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!--Team B Buttons -->
+    <style name="TeamB_Btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!--Reset Button -->
+    <style name="reset_Btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+</resources>
